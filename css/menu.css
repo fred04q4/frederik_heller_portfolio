@@ -1,0 +1,100 @@
+@font-face {
+  font-family: input;
+  src: url(/fonts/Input-Regular_\(InputMonoNarrow-Light\).woff2);
+}
+@font-face {
+  font-family: input bold;
+  src: url(/fonts/Input-Bold_\(InputMonoNarrow-Medium\).woff2);
+}
+
+/*menu*/
+@media (min-width: 700px) {
+  .menu.-open {
+    aspect-ratio: 16/9;
+  }
+}
+
+.menu {
+  opacity: 0;
+  max-width: 100%;
+  max-height: 100%;
+  color: #d9d1cc;
+  background: #657068;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  aspect-ratio: 9/16;
+  font-family: input;
+}
+
+.menu.-open {
+  opacity: 0.9;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  margin: 20px 0;
+}
+
+.button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  box-sizing: border-box;
+  height: 36px;
+  cursor: pointer;
+  z-index: 2;
+}
+.button svg {
+  stroke: #657068;
+  transition: 0.2s;
+}
+.button svg g:first-child {
+  opacity: 1;
+  transition: opacity 0s 0.2s;
+}
+.button svg g:first-child line {
+  transition: transform 0.2s 0.2s;
+  transform: translateY(0px);
+}
+.button svg g:last-child {
+  opacity: 0;
+  transition: opacity 0s 0.2s;
+}
+.button svg g:last-child line {
+  transition: transform 0.2s;
+  transform: rotate(0deg);
+  transform-origin: center;
+}
+.button.-menu-open svg {
+  stroke: #d9d1cc;
+}
+.button.-menu-open svg g:first-child {
+  opacity: 0;
+}
+.button.-menu-open svg g:first-child line {
+  transition: transform 0.2s;
+}
+.button.-menu-open svg g:first-child line:first-child {
+  transform: translateY(7px);
+}
+.button.-menu-open svg g:first-child line:last-child {
+  transform: translateY(-7px);
+}
+.button.-menu-open svg g:last-child {
+  opacity: 1;
+}
+.button.-menu-open svg g:last-child line {
+  transition: transform 0.2s 0.2s;
+}
+.button.-menu-open svg g:last-child line:first-child {
+  transform: rotate(45deg);
+}
+.button.-menu-open svg g:last-child line:last-child {
+  transform: rotate(-45deg);
+}

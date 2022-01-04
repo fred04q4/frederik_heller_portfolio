@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: input;
+  src: url(/fonts/Input-Regular_\(InputMonoNarrow-Light\).woff2);
+}
+@font-face {
+  font-family: input bold;
+  src: url(/fonts/Input-Bold_\(InputMonoNarrow-Medium\).woff2);
+}
+
+/*backgrund coler*/
+html {
+  background-color: #d9d1cc;
+}
+
+.logo {
+  max-width: 50%;
+}
