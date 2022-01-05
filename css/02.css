@@ -1,0 +1,246 @@
+/*___________________________________________________mobil udgave _______________________________________________________*/
+.main {
+  margin-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* til 1 afsnit*/
+.to-1 {
+  margin-top: 70px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.to-1 .img {
+  grid-column: 2/10;
+  grid-row: 1/7;
+  background-image: url(/billeder/Layer\ 0.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.to-1 p {
+  font-size: 0.5rem;
+  z-index: 2;
+  grid-column: 8/12;
+  grid-row: 1;
+  display: grid;
+  place-content: end;
+  border-color: black;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-width: 0.5px;
+}
+
+.to-1 .t1 {
+  display: grid;
+  grid-column: 1/3;
+  grid-row: 3;
+  z-index: 2;
+  place-content: start;
+  margin-top: 25px;
+  font-size: 1rem;
+  margin-left: 2px;
+}
+
+.to-1 .t2 {
+  grid-column: 1/3;
+  grid-row: 4;
+  z-index: 1;
+  font-size: 1rem;
+  margin-left: 2px;
+}
+
+/* til 2 afsnit*/
+.to-2 {
+  display: grid;
+  grid-template-rows: 1fr;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.Kompetanceliste {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  overflow: hidden;
+  aspect-ratio: 365/325;
+}
+#Kompetanceliste {
+  list-style: none;
+  border-color: black;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-width: 2px;
+}
+
+.to-2 p {
+  margin-bottom: 30px;
+  margin-left: 2px;
+  margin-right: 100px;
+}
+
+.to-2 h1 {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+/* til 3 afsnit*/
+.to-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 500px;
+  margin-bottom: 100px;
+}
+.overskrift {
+  display: grid;
+  justify-content: center;
+  grid-column: 1/4;
+  grid-row: 1;
+}
+img {
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 2;
+}
+.to-3 p {
+  margin-top: 20px;
+  margin-left: 15px;
+  grid-column: 1/4;
+  grid-row: 3;
+  font-size: 0.8rem;
+}
+
+.to-3 .kanp-3 {
+  width: 150px;
+  height: 80px;
+  background-color: #434945;
+  color: #d9d1cc;
+  overflow: hidden;
+  grid-row: 4;
+  grid-column: 2;
+  margin-left: 150px;
+}
+
+/*___________________________________________________web udgave _______________________________________________________*/
+@media (min-width: 1200px) {
+  /* til 1 afsnit*/
+  .to-1 {
+    margin-top: 70px;
+    /* margin-left: 20px;
+  margin-right: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .to-1 .img {
+    grid-column: 2/7;
+    grid-row: 1/15;
+    background-image: url(/billeder/Layer\ 0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .to-1 p {
+    font-size: 1rem;
+    z-index: 2;
+    grid-column: 6/8;
+    grid-row: 1;
+    display: grid;
+    place-content: end;
+    border-color: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-width: 0.5px;
+  }
+
+  .to-1 .t1 {
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 5;
+    z-index: 2;
+    place-content: start;
+    margin-top: 25px;
+    font-size: 3rem;
+    margin-left: 5px;
+  }
+
+  .to-1 .t2 {
+    grid-column: 1/3;
+    grid-row: 6;
+    z-index: 1;
+    font-size: 3rem;
+    margin-left: 5px;
+  }
+
+  .to-2 {
+    margin-top: 160px;
+    margin-left: 50px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Kompetanceliste {
+    margin-left: 30px;
+  }
+
+  .to-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 500px;
+    margin-bottom: 200px;
+  }
+  .overskrift {
+    display: grid;
+    justify-content: center;
+    grid-column: 1/4;
+    grid-row: 1;
+    margin-bottom: 50px;
+  }
+  img {
+    max-width: 100%;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .to-3 p {
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    place-content: center;
+    height: 100px;
+    font-size: 0.9rem;
+  }
+  .kanp-3 {
+    width: 150px;
+    height: 80px;
+    background-color: #434945;
+    color: #d9d1cc;
+    overflow: hidden;
+  }
+
+  .to-3 .website {
+    max-width: fit-content;
+    grid-row: 4;
+    grid-column: 3;
+    margin-left: 50px;
+  }
+}

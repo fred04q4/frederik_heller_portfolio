@@ -17,6 +17,10 @@ html {
   background-color: #d9d1cc;
 }
 
-.logo {
-  max-width: 50%;
+p {
+  font-family: input;
+}
+
+h1 {
+  font-family: input;
 }
