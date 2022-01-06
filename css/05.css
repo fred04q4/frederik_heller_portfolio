@@ -1,0 +1,319 @@
+/*___________________________________________________mobil udgave _______________________________________________________*/
+.main {
+  margin-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/* til 1 afsnit*/
+.fem-1 {
+  margin-top: 70px;
+  /* margin-left: 20px;
+      margin-right: 20px; */
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.fem-1 .img {
+  grid-column: 2/10;
+  grid-row: 1/7;
+  background-image: url(/billeder/cover_05.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.fem-1 p {
+  font-size: 0.4rem;
+  z-index: 2;
+  grid-column: 1/5;
+  grid-row: 2;
+  margin-left: 5px;
+  display: grid;
+  place-content: end;
+  border-color: black;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-width: 0.5px;
+}
+
+.fem-1 .t1 {
+  display: grid;
+  grid-column: 8/12;
+  grid-row: 1;
+  z-index: 2;
+  place-content: start;
+  margin-top: 25px;
+  font-size: 0.9rem;
+  margin-right: 6px;
+  font-weight: bold;
+}
+
+/* til 2 afsnit*/
+.fem-2 {
+  display: grid;
+  grid-template-rows: 1fr;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.Kompetanceliste {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  overflow: hidden;
+  aspect-ratio: 365/325;
+}
+#Kompetanceliste {
+  list-style: none;
+  border-color: black;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-width: 2px;
+}
+
+.fem-2 p {
+  margin-bottom: 30px;
+  margin-left: 2px;
+  margin-right: 100px;
+}
+
+.fem-2 h1 {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+/* til 3 afsnit*/
+.fem-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 500px;
+  margin-bottom: 100px;
+}
+.fem-3 .overskrift {
+  display: grid;
+  justify-content: center;
+  grid-column: 1/4;
+  grid-row: 1;
+  margin-left: 60px;
+}
+img {
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 2;
+}
+.fem-3 p {
+  margin-top: 20px;
+  margin-left: 15px;
+  grid-column: 1/4;
+  grid-row: 3;
+  font-size: 0.8rem;
+}
+
+.fem-3 .kanp-3 {
+  width: 150px;
+  height: 80px;
+  background-color: #434945;
+  color: #d9d1cc;
+  overflow: hidden;
+  grid-row: 4;
+  grid-column: 2;
+  margin-left: 150px;
+}
+
+/* til 4 afsnit*/
+.fem-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 500px;
+  margin-bottom: 100px;
+}
+.overskrift {
+  display: grid;
+  justify-content: center;
+  grid-column: 1/4;
+  grid-row: 1;
+  font-size: 1rem;
+}
+img {
+  max-width: 100%;
+  grid-column: 1/4;
+  grid-row: 2;
+}
+.fem-4 p {
+  margin-top: 20px;
+  margin-left: 15px;
+  grid-column: 1/4;
+  grid-row: 3;
+  font-size: 0.8rem;
+}
+
+.fem-4 .kanp-4 {
+  width: 150px;
+  height: 80px;
+  background-color: #434945;
+  color: #d9d1cc;
+  overflow: hidden;
+  grid-row: 4;
+  grid-column: 2;
+  margin-left: 150px;
+}
+/*___________________________________________________web udgave _______________________________________________________*/
+@media (min-width: 1200px) {
+  /* til 1 afsnit*/
+  .fem-1 {
+    margin-top: 70px;
+    /* margin-left: 20px;
+      margin-right: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .fem-1 .img {
+    grid-column: 2/8;
+    grid-row: 1/15;
+    background-image: url(/billeder/cover_05.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .fem-1 p {
+    font-size: 1.1rem;
+    z-index: 2;
+    grid-column: 1/3;
+    grid-row: 9;
+    display: grid;
+    place-content: end;
+    border-color: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-width: 0.5px;
+    margin-left: 10px;
+  }
+
+  .fem-1 .t1 {
+    display: grid;
+    grid-column: 7/9;
+    grid-row: 1;
+    z-index: 2;
+    place-content: start;
+    margin-top: 25px;
+    font-size: 2rem;
+    margin-right: 5px;
+    font-weight: bold;
+  }
+
+  .fem-2 {
+    margin-top: 160px;
+    margin-left: 50px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Kompetanceliste {
+    order: -1;
+    margin-right: 30px;
+  }
+
+  .fem-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 500px;
+    margin-bottom: 200px;
+  }
+  .fem-3 .overskrift {
+    display: grid;
+    justify-content: center;
+    grid-column: 1/4;
+    grid-row: 1;
+    margin-bottom: 50px;
+  }
+  .fem-3 img {
+    max-width: 100%;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .fem-3 p {
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    place-content: center;
+    height: 100px;
+    font-size: 0.9rem;
+  }
+  .fem-3 .kanp-3 {
+    width: 150px;
+    height: 80px;
+    background-color: #434945;
+    color: #d9d1cc;
+    overflow: hidden;
+  }
+
+  .fem-3 .website {
+    max-width: fit-content;
+    grid-row: 4;
+    grid-column: 3;
+    margin-left: 50px;
+  }
+
+  .fem-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 500px;
+    margin-bottom: 200px;
+    margin-top: 400px;
+  }
+  .overskrift {
+    display: grid;
+    justify-content: center;
+    grid-column: 1/4;
+    grid-row: 1;
+    margin-bottom: 50px;
+  }
+  .fem-4 img {
+    max-width: 100%;
+    grid-column: 2/5;
+    grid-row: 2/4;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .fem-4 p {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    place-content: center;
+    height: 100px;
+    font-size: 0.9rem;
+  }
+  .kanp-4 {
+    width: 150px;
+    height: 80px;
+    background-color: #434945;
+    color: #d9d1cc;
+    overflow: hidden;
+  }
+
+  .fem-4 .website_1 {
+    max-width: fit-content;
+    grid-row: 4;
+    grid-column: 1;
+    margin-left: 50px;
+  }
+}

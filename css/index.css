@@ -14,13 +14,13 @@ main {
 @media (min-width: 1200px) {
   main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   .logo {
-    grid-column: 2;
-    grid-row: 4;
-    max-width: 50%;
+    grid-column: 3;
+    grid-row: 2;
+    max-width: 100%;
     justify-content: center;
     gap: 10px;
   }

@@ -18,7 +18,7 @@
 .to-1 .img {
   grid-column: 2/10;
   grid-row: 1/7;
-  background-image: url(/billeder/Layer\ 0.png);
+  background-image: url(/billeder/cover_02.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -148,7 +148,7 @@ img {
   .to-1 .img {
     grid-column: 2/7;
     grid-row: 1/15;
-    background-image: url(/billeder/Layer\ 0.png);
+    background-image: url(/billeder/cover_02.png);
     background-size: cover;
     background-repeat: no-repeat;
   }

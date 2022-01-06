@@ -1,0 +1,166 @@
+/*___________________________________________________mobil udgave _______________________________________________________*/
+.main {
+  margin-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+/* til 1 afsnit*/
+.about-1 {
+  margin-top: 70px;
+  /* margin-left: 20px;
+        margin-right: 20px; */
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.about-1 .img {
+  grid-column: 2/10;
+  grid-row: 1/7;
+  background-image: url(/billeder/cover_about.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.about-1 .t1 {
+  display: grid;
+  grid-column: 2/4;
+  grid-row: 3;
+  z-index: 2;
+  place-content: start;
+  margin-top: 25px;
+  font-size: 0.9rem;
+  margin-left: 6px;
+  border-color: black;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-width: 0.1rem;
+}
+
+.kanp-3 {
+  width: 150px;
+  height: 80px;
+  background-color: #434945;
+  color: #d9d1cc;
+  overflow: hidden;
+  grid-row: 4;
+  grid-column: 2;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.text {
+  display: grid;
+  justify-content: center;
+  font-size: 0.7rem;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 2rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.info {
+  display: grid;
+  justify-content: center;
+  font-size: 0.9rem;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  gap: 10px;
+  line-height: 1.1rem;
+}
+
+.text1 {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 1rem;
+  text-align: center;
+  gap: 10px;
+  line-height: 3rem;
+}
+
+.text2 {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 1rem;
+  text-align: center;
+  gap: 10px;
+  line-height: 3rem;
+}
+/*___________________________________________________web udgave _______________________________________________________*/
+@media (min-width: 1200px) {
+  /* til 1 afsnit*/
+  .about-1 {
+    margin-top: 70px;
+    /* margin-left: 20px;
+        margin-right: 20px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .about-1 .img {
+    grid-column: 2/11;
+    grid-row: 2/10;
+    background-image: url(/billeder/cover_about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .about-1 .t1 {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 7;
+    z-index: 2;
+    place-content: start;
+    margin-top: 25px;
+    font-size: 3rem;
+    margin-right: 20px;
+  }
+
+  .kanp-3 {
+    width: 150px;
+    height: 80px;
+    background-color: #434945;
+    color: #d9d1cc;
+    overflow: hidden;
+    grid-row: 4;
+    grid-column: 2;
+    margin-left: 350px;
+    margin-top: 50px;
+  }
+
+  .about-2 {
+    margin-top: 250px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .text {
+    font-size: 1rem;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .text2 {
+    line-height: 3rem;
+    margin-right: 50px;
+  }
+}
