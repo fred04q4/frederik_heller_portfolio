@@ -3,39 +3,76 @@
   margin: 0;
 }
 
-@font-face {
-  font-family: input;
-  src: url(/fonts/Input-Regular_\(InputMonoNarrow-Light\).woff2);
-}
-@font-face {
-  font-family: input bold;
-  src: url(/fonts/Input-Bold_\(InputMonoNarrow-Medium\).woff2);
-}
-
 /*backgrund coler*/
 html {
   background-color: #d9d1cc;
 }
 
 p {
-  font-family: input;
+  font-family: "Overpass Mono", monospace;
 }
 
 h1 {
-  font-family: input;
+  font-family: "Overpass Mono", monospace;
+  font-size: 1rem;
 }
 h2 {
-  font-family: input;
+  font-family: "Overpass Mono", monospace;
 }
 
 h3 {
-  font-family: input;
+  font-family: "Overpass Mono", monospace;
 }
 
 li {
-  font-family: input;
+  font-family: "Overpass Mono", monospace;
 }
 
 a {
-  font-family: input;
+  font-family: "Overpass Mono", monospace;
+}
+
+footer {
+  margin-top: 130px;
+  margin-left: 20px;
+  font-size: 0.7rem;
+  margin-bottom: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 1200px) {
+  main {
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow: hidden;
+  }
+
+  p {
+    font-family: "Overpass Mono", monospace;
+  }
+
+  h1 {
+    font-family: "Overpass Mono", monospace;
+    font-size: 2rem;
+  }
+  h2 {
+    font-family: "Overpass Mono", monospace;
+  }
+
+  h3 {
+    font-family: "Overpass Mono", monospace;
+  }
+
+  li {
+    font-family: "Overpass Mono", monospace;
+  }
+
+  a {
+    font-family: "Overpass Mono", monospace;
+  }
 }

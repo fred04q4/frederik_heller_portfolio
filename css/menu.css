@@ -1,10 +1,10 @@
 @font-face {
   font-family: input;
-  src: url(/fonts/Input-Regular_\(InputMonoNarrow-Light\).woff2);
+  src: url(fonts/Input-Regular_\(InputMonoNarrow-Light\).woff2);
 }
 @font-face {
   font-family: input bold;
-  src: url(/fonts/Input-Bold_\(InputMonoNarrow-Medium\).woff2);
+  src: url(fonts/Input-Bold_\(InputMonoNarrow-Medium\).woff2);
 }
 
 /*menu stylning*/

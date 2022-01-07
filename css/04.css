@@ -18,9 +18,6 @@
 .fire-1 .img {
   grid-column: 2/10;
   grid-row: 1/7;
-  background-image: url(/billeder/cove_04.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
 }
 
 .fire-1 p {
@@ -141,9 +138,6 @@ img {
   .fire-1 .img {
     grid-column: 2/15;
     grid-row: 1/8;
-    background-image: url(/billeder/cove_04.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
   }
 
   .fire-1 p {
@@ -228,5 +222,8 @@ img {
     grid-row: 4;
     grid-column: 3;
     margin-left: 50px;
+  }
+  footer {
+    margin-top: 324px;
   }
 }
