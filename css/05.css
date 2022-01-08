@@ -176,7 +176,7 @@ img {
 
   .fem-1 img {
     grid-column: 2/8;
-    grid-row: 1/5;
+    grid-row: 1/8;
   }
 
   .fem-1 p {
@@ -208,7 +208,7 @@ img {
   }
 
   .fem-2 {
-    margin-top: 160px;
+    margin-top: 200px;
     margin-left: 50px;
     margin-right: 5px;
 

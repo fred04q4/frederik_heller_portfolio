@@ -4,6 +4,9 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+img {
+  max-width: 100%;
+}
 /* til 1 afsnit*/
 .fire-1 {
   margin-top: 70px;
@@ -127,11 +130,11 @@ img {
 @media (min-width: 1200px) {
   /* til 1 afsnit*/
   .fire-1 {
-    margin-top: 70px;
+    margin-top: 150px;
     /* margin-left: 20px;
       margin-right: 20px; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
@@ -144,7 +147,7 @@ img {
     font-size: 1rem;
     z-index: 2;
     grid-column: 13/16;
-    grid-row: 2;
+    grid-row: 1;
     display: grid;
     place-content: end;
     border-color: black;
@@ -168,7 +171,7 @@ img {
   }
 
   .fire-2 {
-    margin-top: 160px;
+    margin-top: 230px;
     margin-left: 50px;
     margin-right: 5px;
     margin-bottom: 50px;

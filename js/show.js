@@ -1,6 +1,6 @@
-const knap = document.querySelector(".knap");
-const text1 = document.querySelector(".text1");
-const text2 = document.querySelector(".text2");
+let knap = document.querySelector(".knap");
+let text1 = document.querySelector(".text1");
+let text2 = document.querySelector(".text2");
 
 knap.addEventListener("click", () => {
   button.classList.toggle("knap-3");

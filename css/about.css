@@ -96,6 +96,10 @@ p {
   line-height: 3rem;
 }
 
+.text1 div {
+  margin-top: 2rem;
+}
+
 .text2 {
   display: grid;
   justify-content: center;
@@ -105,13 +109,15 @@ p {
   gap: 10px;
   line-height: 3rem;
 }
+
+.text2 div {
+  margin-top: 2rem;
+}
 /*___________________________________________________web udgave _______________________________________________________*/
 @media (min-width: 1200px) {
   /* til 1 afsnit*/
   .about-1 {
     margin-top: 70px;
-    /* margin-left: 20px;
-        margin-right: 20px; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -119,7 +125,7 @@ p {
 
   .about-1 .img {
     grid-column: 2/9;
-    grid-row: 1/12;
+    grid-row: 1/8;
   }
 
   .about-1 .t1 {
@@ -157,8 +163,16 @@ p {
     margin-right: 150px;
   }
 
+  .text1 {
+    line-height: 3rem;
+  }
+
   .text2 {
     line-height: 3rem;
     margin-right: 50px;
+  }
+
+  .text2 h2 {
+    margin-bottom: 80px;
   }
 }
