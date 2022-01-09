@@ -91,4 +91,37 @@ footer {
   footer {
     margin-top: -20px;
   }
+
+  .run {
+    animation-name: run_kf;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes run_kf {
+    from {
+      transform: translateX(-280%);
+    }
+
+    to {
+      transform: translateX(0%);
+    }
+  }
+  .run1 {
+    animation-name: run_kf1;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes run_kf1 {
+    from {
+      transform: translateX(280%);
+    }
+
+    to {
+      transform: translateX(2%);
+    }
+  }
 }
