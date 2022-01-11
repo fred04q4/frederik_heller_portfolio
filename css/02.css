@@ -8,9 +8,6 @@
 /* til 1 afsnit*/
 .to-1 {
   margin-top: 70px;
-  /* margin-left: 20px;
-  margin-right: 20px; */
-  max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
